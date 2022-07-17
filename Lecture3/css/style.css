@@ -1,0 +1,490 @@
+/* !SELECTOR */
+/* sab select ak sath html me */
+/* *{
+   margin:0;
+   padding:0;
+}
+header{
+    margin-bottom:60px;
+    padding:5;
+}
+h1{
+    font-family: s;
+    color:rgb(205, 137, 12);
+    font-size: 40px;
+}
+h2{
+    font-size: 60px;
+    color:rgb(205, 137, 12);
+}
+p{
+    font-size: 20px;
+    ak line kiten space le
+    line-height: 1.5;
+     margin: top right bottom left 
+    margin: 15px 0;
+
+}
+h3{
+    font-size: 40px;
+    color:rgb(205, 137, 12);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 40px;
+    color:rgb(205, 137, 12);
+}
+sab me ak sath
+h1,h2,h3,h4{
+    color:rgb(182, 182, 182)
+    margin:20px 0;
+}
+h1,h2,h3,h4,p{
+    font-size: serif;
+
+}
+footer{
+    font-size:20px 0;
+}
+header{
+    font-size: 20px;
+}
+ul,ol{
+    font-size:20px
+} */
+/* 1em=16 pixels */
+
+/* DESCENDANT SELECTOR */
+/* Selects every child para inside header */
+/* and this is a good think */
+/* header p{
+    color:blue
+} */
+/* End DESCENDANT SELECTOR */
+/* Class AND IDS */
+
+/* article p em{
+    color:blue
+    font-style: italic
+} */
+/* class id se ye fada ki parenat bar bar nhi to is le easy ho jai ga */
+
+/* #myid{
+    color:blue;
+    font-style: normal;
+    
+} */
+/* id =unique for every elemnet  ans is me nhi de sakte*/
+
+/* class= */
+/* is me do ko same de sakte */
+/* .Mypara{
+    color:blue;
+}
+.Mypara-font{
+    font-style:italic;
+} */
+/* End Class AND IDS */
+/* COMBINATORS */
+/* >(Target immediate/direct child */
+/* or direct p ho bo */
+/* article>p{
+  color:black;
+} */
+/* + Immediate siblings */
+/* jo firt hai usne niche jo bhi hai bo sab pe */
+/* jase list hai us me <p> dal dia to uske aage ak ko clor nhi
+ */
+/* li+li{
+    color:brown
+} */
+/* is se sab me apply ho jai */
+/* jo uske next wale sab me ho jai */
+/* li~li{
+    color:brown
+} */
+/* END COMBINATORS */
+
+/* PSUEDOCLASS */
+/* lvha */
+/* a:link{
+    text-decoration:none;
+    font-size: 24px;
+    color: rgb(196, 125, 19);
+} */
+/* is se ak bar click kar dia to colour change na ho */
+/* a:visited{
+    text-decoration:none;
+    font-size: 24px;
+    color:orange
+} */
+/* mtlb click pe ubarna */
+/* a:hover{
+    text-decoration:underline;
+    font-size: 24px;
+    color: rgb(57, 19, 196);
+    /* hand a jata hai */
+    /* cursor: pointer;
+    font-weight: 800;
+}*/ */
+/* link click kar ke rakha to color us time me change rhe or jase hi click choda clour boi phale wali */
+/* a:active{
+    /* link click kar ke rakha to color us time me change rhe or jase hi click choda clour boi phale wali */
+    /* background-color: black;
+    color: brown;
+} */ */
+/* END PSUEDOCLASS */
+/* .Main-Header{
+    
+    background-color: bisque;
+} */
+
+/* li:nth-child(an+b) */
+/* ex */
+/* li:nth-child(2n+3) */
+/* a matlb ki kitne gaap pr and b kha se start */
+/* a=interva */
+/* b=offset */
+/* to even wale sare */
+/* li:nth-child(even) */
+/* a=interva */
+/* b=offset */
+/* li:nth-child(even){
+    color:blue
+} */
+/* li:nth-child(2n+1){
+    color:blue
+} */
+/* li:nth-child(-2n+4){
+    color:blue
+} */
+/* .CONTANOR{
+  margin: auto;
+}
+li{
+    margin-left: 40px;
+    margin-bottom: 12px;
+    
+} */
+/* margin hata dia last wale ka */
+/* li:nth-child{
+    margin-bottom: 0;
+} */
+/* kal class me conflics */
+/* start */
+/* sab select ak sath html me */
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    width:1200px !important;
+  }
+  .main-header{
+    height: 1200 ;
+  }
+  /* SELECTORS */
+  h1{
+    float:right
+  }
+ 
+  nav{
+    clear:none;
+  }
+  .next{
+    float: left;
+    
+  }
+  .clearFix{
+    display:block;
+    clear:both
+  }
+
+  h2,h3,h4{
+    color: rgb(50, 134, 130);
+    margin: 20px 0;
+  }
+  h1,h2,h3,h4,p{
+    /* font-family: Georgia, 'Times New Roman', Times, sans-serif; */
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    /* font-family: sans-serif; */
+    font-size: 36px;
+    /* color: rgb(40, 197, 189); */
+  }
+  
+  h2 {
+    /* font-family: sans-serif; */
+    font-size: 40px;
+    /* color: rgb(40, 197, 189); */
+  }
+  
+  h3{
+    /* font-family: sans-serif; */
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  
+    /* color: rgb(40, 197, 189); */
+  }
+  
+  h4{
+    /* font-family: sans-serif; */
+    font-size: 26px;
+    /* color: rgb(40, 197, 189); */
+  }
+  
+  p {
+    /* font-family: sans-serif; */
+    font-size: 20px;
+    line-height: 1.5;
+    /* margin: top right bottom left; */
+    /* margin: top/bottom left/right; */
+    margin: 15px 0;
+  }
+  
+  ul,ol{
+    font-size: 20px;
+  }
+  /* se bo jasa tha wase rhe agar hum uske group ko kuch lagne ke baad */
+  footer{
+    clear: both;
+    display: :block;
+    font-size: 14px;
+  }
+  
+  li{
+    margin-left: 40px;
+    margin-bottom: 12px;
+  }
+  
+  nav a{
+    margin: 0 15px;
+  }
+  
+  nav a:last-child{
+    margin-right: 0;
+  }
+  /* !SELECTORS */
+  
+  /* DESCENDANT SELECTORS */
+  /* Selects every child para inside header */
+  /* header p{
+    color: orange;
+  }
+  article p em{
+    font-style: italic;
+    color: orange;
+  } */
+  /* !DESCENDANT SELECTORS */
+  
+  
+  /* CLASS AND IDS */
+  #myid{
+    /* font-style: italic;
+    color: orange; */
+  }
+  
+  /* .mypara{
+    color: blue;
+  }
+  .mypara-font{
+    font-size: 28px;
+  }
+  .header-font{
+    font-size: 12px;
+  } */
+  
+  .main-header{
+    background-color: rgb(243, 240, 228);
+    margin-bottom: 60px;
+  }
+  
+  .container{
+      width: 800px;
+      margin: auto;
+  }
+  
+  .related{
+    margin-top: 50px;
+    /* background-color: chartreuse; */
+    width: 350px;
+    background-color: beige !important;
+    /* border-top:5px solid  rgb(50, 134, 130) !important;
+    border-bottom:5px solid  rgb(50, 134, 130) !important; */
+    border: 5px  dotted red
+
+    /* text-align: center; */
+  }
+  
+  .related-heading{
+    text-align: center;
+  }
+  .related-list{
+    list-style: none;
+  }
+  .container{
+    border: 5px  dotted blue
+  }
+
+  /* .related-post{
+    margin-left: 20px;
+  } */
+  /* !CLASS AND IDS */
+  
+  
+  
+  /* COMBINATORS */
+  /* > (Target immediate/direct child) */
+  /* article>p{
+    color: red;
+  } */
+  /* + Immediate siblings */
+  /* li+li{
+    color: brown;
+  } */
+  
+  /* ~ General siblings */
+  /* li~li{
+    color: brown;
+  } */
+  
+  
+  /* !COMBINATORS */
+  
+  
+  /* PSUEDOCLASS */
+  /* lvha */
+  a:link{
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(50, 134, 130);
+  }
+  
+  a:visited{
+    font-size: 24px;
+    color: rgb(50, 134, 130);
+  }
+  
+  a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  
+  a:active{
+    background-color: black;
+    color: brown;
+  }
+  /* !PSUEDOCLASS */
+  
+  
+  /* STRUCTURAL PSUEDOCLASS */
+  /* li:nth-child(even){
+    color: rgb(0, 60, 255);
+  } */
+  /* li:nth-child(3n+1){
+    color: rgb(0, 60, 255);
+  } */
+  /* li:nth-child(-2n+4){
+    color: rgb(0, 60, 255);
+  } */
+  li:last-child{
+    margin-bottom:0;
+  }
+  
+  /* !STRUCTURAL PSUEDOCLASS */
+
+  /* RESOVING CONFLICT */
+  /* jo jada specify bo apply */
+  /* header dono ki specity same to last me jo likha hai bo ho jai ga */
+  header p{
+    color: orange;
+  }
+  p{
+    color: blueviolet;
+  }
+  header p{
+    color: blue;
+  }
+  /* id sab se jada hoti hai */
+  /* more specties */
+  .mypara{
+    color: brown;
+  }
+  #mypara{
+    color: blueviolet;
+  }
+  /* jab ! likha to sab haat ke ye lage ga */
+  /* most imp id se bhi */
+  /* p{
+    color: rgb(58, 43, 226) !important;
+  } */
+
+  /* perfers chat */
+  /* increaing order */
+  /* p */
+  /* header p */
+  /* class */
+  /* id */
+  /* inline style */
+  /* ex  <p id="mypara"class="mypara" style="color:darkgoldenrod">*/
+  /* !important */
+  
+  /* END RESOVING CONFLICT */
+  .Foot{
+    display: block !important;
+    clear:none !important;
+  }
+  
+  .postkiclass{
+    width:100%;
+    height: 450;
+  }
+  .post{
+    /* background-color:green ; */
+    margin-top:20px ;
+    padding: 0 12px;
+    float:left;
+  }
+  .related{
+    /* background-color:bisque; */
+    margin-top:20px ;
+    padding:  0 12px;
+    float:right;
+  }
+  .container{
+    width:70% !important;
+  }
+  /* clear does not work on inline only work in block element  */
+   .container{
+     float: left !important;
+   }
+   related{
+    float: right !important;
+   }
+   /* ADDING THE */
+   .article{
+     position: relative;
+   }
+   .post-header::after{
+     content: "TOP";
+     background-color: yellow;
+     font-weight: bold;
+     padding: 10px;
+     font-size: 20px;
+     /* bas aagr hume box move karna ho to */
+     position: absolute;
+     top:10px;
+     right:40px;
+   }
+
+   
+
+
+
+   

@@ -10,3 +10,5 @@ file ke aagr u likha matlb untracted file hai bo
 
 se untracted file me jana mat koi file nhi dalni to ase karte hai
 git rm --cached file name
+
+
